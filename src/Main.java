@@ -6,5 +6,7 @@ public class Main {
        // dog.chew();
         dog.eat();
 
+        Bird bird = new Bird("Henry",1,1,2,2,2,2);
+        bird.Chirp();
     }
 }

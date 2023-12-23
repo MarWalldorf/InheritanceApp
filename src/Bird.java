@@ -9,6 +9,10 @@ public class Bird extends Animal {
         this.wings = wings;
     }
 
+    public void Chirp() {
+        System.out.println("Bird.chirp() is called");
+    }
+
     public int getLegs() {
         return legs;
     }
