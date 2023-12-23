@@ -10,7 +10,15 @@ public class Dog extends Animal {
         this.tail = tail;
     }
 
+public void chew() {
+        System.out.println("Dog.chew() is called");
+}
 
+    @Override
+    public void eat() {
+        super.eat();
+        chew();
+    }
 
     public int getEyes() {
         return eyes;
